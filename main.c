@@ -1,12 +1,47 @@
-#include<stdio.h>
-int main()
-{
-    int n,c=0;
-    scanf("%d",&n);
-    while(n!=0)
-    {
-        n=n/10;
-        c++;
-    }
-    printf("%d",c);
-}
+// #include<stdio.h>
+// int main()
+// {
+//     int n,i;
+//     scanf("%d",&n);
+//     int arr[n];
+//     for(i=0;i<n;i++)
+//     scanf("%d",&arr[i]);
+//     for(i=0;i<n;i++)
+//     printf("%d ",arr[i]);
+// }
+
+// #include<stdio.h>
+// int main()
+// {
+//     int n,i,max;
+//     scanf("%d",&n);
+//     int arr[n];
+//     for(i=0;i<n;i++)
+//     {scanf("%d",&arr[i]);
+//     }
+//     max=arr[0];
+//     for(i=1;i<n;i++)
+//     {
+//         if(arr[i]>max)
+//         max=arr[i];
+//     }
+//     printf("maximum of element : %d",max);
+// }
+
+// #include<stdio.h>
+// int main()
+// {
+//     int n,i,min;
+//     scanf("%d",&n);
+//     int arr[n];
+//     for(i=0;i<n;i++)
+//     {scanf("%d",&arr[i]);
+//     }
+//     min=arr[0];
+//     for(i=1;i<n;i++)
+//     {
+//         if(arr[i]<min)
+//         min=arr[i];
+//     }
+//     printf("minimum of element : %d",min);
+// }
