@@ -1,24 +1,12 @@
-// // #include <stdio.h>
-// // int main()
-// // { int a;
-// //   scanf ("%d",&a);
-// //   printf ("%d",&a);
-// // }
-// #include <stdio.h>
-// int main()
-// {
-//     float a;
-//     scanf("%f",&a);
-//     printf("%.2f",a);
-// } 
-// #include <stdio.h>
-// int main()
-// {
-//     printf("pooja sri");
-// }
-// #include <stdio.h>
-// int main()
-// {
-//     printf("slow and \"steady\" wins the race");
-// }
-#include 
+#include<stdio.h>
+int main()
+{
+    int n,c=0;
+    scanf("%d",&n);
+    while(n!=0)
+    {
+        n=n/10;
+        c++;
+    }
+    printf("%d",c);
+}
